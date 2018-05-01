@@ -1,0 +1,135 @@
+/*global*/
+
+
+body{
+  /*background-image: url("https://static.pexels.com/photos/163491/bike-mountain-mountain-biking-trail-163491.jpeg");*/
+  /*background-image: url("https://static.pexels.com/photos/533730/pexels-photo-533730.jpeg");*/
+  background-image: url("../images/photos/body.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+img{
+   width:100% !important; 
+}
+
+.container{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: rgba(222,212,192,0.8);
+  padding:1em;
+  min-height: 100vh !important;
+}
+
+.carousel{
+  display: inline-block;
+  margin-bottom: 2em;
+}
+
+.list-group{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.contact{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/*-----------------------*/
+
+
+/*coulomns*/
+.row h1{
+  font-size: 1.5em;
+}
+/*---------------------*/
+
+
+/*footer*/
+footer.footer-copyright {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  /*background-color: #ded4c0 !important;*/
+  background-color: white;
+ }
+
+ .footer-copyright p{
+  margin-top: 1em;
+ }
+
+/*---------------------*/
+
+/*navigation*/
+nav.navbar{
+  background-color: rgb(88,174,92) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.icon-nav{
+  height: 3em;
+  width: auto !important;
+  margin-right: 0 !important;
+}
+
+.nav li a{
+  color: black !important;
+}
+
+.nav li a:hover{
+  color: rgb(222,212,192) !important;
+  transition: 0.5s;
+}
+
+.active {
+  background-color: rgb(114,200,118) !important;
+}
+
+.margin-nav{
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+.margin-nav-brand{
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  color: rgb(222,212,192);
+}
+/*---------------------*/
+
+
+.icon-brand{
+  width: 100%;
+  height: 40em;
+}
+
+.btn{
+  width:100%;
+  color: white;
+  background-color: rgb(88,174,92) !important;
+  border-style: none;
+}
+
+.btn:hover{
+  background-color: rgb(114,200,118) !important;
+  color: rgb(222,212,192);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
