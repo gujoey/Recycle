@@ -50,23 +50,26 @@ img{
 /*---------------------*/
 
 
-/*footer*/
-footer.footer-copyright {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  /*background-color: #ded4c0 !important;*/
-  background-color: white;
- }
-
- .footer-copyright p{
-  margin-top: 1em;
- }
-
+/*----footer----*/
+/*-----fix-for-footer-bottom----*/
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;/*flex on main content*/
+}
+section.bottom{
+	padding-bottom: 1em; /*1em bottompadding on bottom section*/
+}
+footer {
+  	padding: 1em 0 0 0; /*2em footer padding*/
+	background-color: #fff; /*red background color*/
+}
 /*---------------------*/
 
 /*navigation*/
