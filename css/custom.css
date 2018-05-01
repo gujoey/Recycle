@@ -16,11 +16,9 @@ img{
 }
 
 .container{
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 15px;
+  margin-bottom: 15px;
   /*background-color: rgba(222,212,192,0.8);*/
-  padding:1em;
-  /*min-height: 100vh !important;*/
 }
 
 .carousel{
@@ -144,16 +142,3 @@ nav.navbar{
 	transition-duration: 0.2s;
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
