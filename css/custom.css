@@ -27,6 +27,10 @@ img{
   margin-bottom: 2em;
 }
 
+.carousel-caption{
+	background-color: rgba(0,0,0,0.6);
+}
+
 .list-group{
   margin-top: 1em;
   margin-bottom: 1em;
