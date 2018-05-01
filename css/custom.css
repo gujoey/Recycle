@@ -27,7 +27,7 @@ img{
 }
 
 .carousel-caption{
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0.8);
 }
 
 .list-group{
@@ -129,7 +129,11 @@ nav.navbar{
 
 .btn:hover{
   background-color: rgb(114,200,118) !important;
-  color: rgb(222,212,192);
+  color: #000;
+}
+
+.btn-custom{
+	width: 40%;
 }
 
 .no-link, .no-link:hover{
@@ -141,4 +145,16 @@ nav.navbar{
 	background-color: rgb(114,200,118);
 	transition-duration: 0.2s;
 	
+}
+@media (max-width: 768px) {
+	[class*="col-"] {
+		margin-bottom: 15px;
+	}
+	.container{
+		margin-bottom: 0;
+	}
+	
+	.col-md-12{
+		margin-bottom: 0;
+	}
 }
