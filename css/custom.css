@@ -4,10 +4,11 @@
 body{
   /*background-image: url("https://static.pexels.com/photos/163491/bike-mountain-mountain-biking-trail-163491.jpeg");*/
   /*background-image: url("https://static.pexels.com/photos/533730/pexels-photo-533730.jpeg");*/
-  background-image: url("../images/photos/body.jpeg");
+  /*background-image: url("../images/photos/body.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center;*/
+	background-color: rgba(222,212,192,0.8);
 }
 
 img{
@@ -17,9 +18,9 @@ img{
 .container{
   margin-top: 2em;
   margin-bottom: 2em;
-  background-color: rgba(222,212,192,0.8);
+  /*background-color: rgba(222,212,192,0.8);*/
   padding:1em;
-  min-height: 100vh !important;
+  /*min-height: 100vh !important;*/
 }
 
 .carousel{
