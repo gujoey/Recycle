@@ -146,9 +146,37 @@ nav.navbar{
 	transition-duration: 0.2s;
 	
 }
+
+.container-small{
+	width: 30%;
+	margin: auto;
+}
+
+@media (max-width: 1500px) {
+	.container-small{
+		width: 40%;
+	}
+}
+
+@media (max-width: 1200px) {
+	.container-small{
+		width: 50%;
+	}
+}
+
+@media (max-width: 900px) {
+	.container-small{
+		width: 60%;
+	}
+}
+
 @media (max-width: 768px) {
 	[class*="col-"] {
 		margin-bottom: 15px;
+	}
+	
+	.container-small{
+		width: 65%;
 	}
 	.container{
 		margin-bottom: 0;
@@ -156,5 +184,11 @@ nav.navbar{
 	
 	.col-md-12{
 		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 575px) {
+	.container-small{
+		width: 96%;
 	}
 }
