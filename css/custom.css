@@ -154,6 +154,7 @@ nav.navbar{
 .container-small{
 	width: 30%;
 	margin: auto;
+	margin-top: 1em;
 }
 
 .navbar-toggler{

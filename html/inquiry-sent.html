@@ -35,7 +35,7 @@
 		<main>
 			<div class="container-small">
 				<h1 class="text-center">Contact us</h1>
-				<form class="contact" action="inquiry-sent.html" onsubmit="return checkForm();">
+				<form class="contact" action="#" onsubmit="return checkForm();">
 					<div class="form-group">
 				    	<label for="name">Name</label>
 				    	<input type="text" class="form-control" id="name" name="name" placeholder="Enter name">
@@ -68,6 +68,24 @@
 				</form>
 			</div><!--container-->
 		</main>
+		
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+			  	<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Thank you for your inquiry</h4>
+				  		<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+						<p>Our opening hours are monday - friday 8 - 16. We will reply to your inquiry as soon as possible</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<footer class="footer-copyright"><p class="text-center">Copyright 2017 RE-CYCLE &copy;</p></footer>
 
@@ -75,5 +93,11 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 		<script src="../js/script.js"></script>
+		
+		<script type="text/javascript">
+			$(window).on('load',function(){
+				$('#myModal').modal('show');
+			});
+		</script>
 	</body>
 </html>
