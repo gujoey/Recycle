@@ -14,7 +14,7 @@
 	</head>  
 	<body>
 		<header>
-			<nav class="navbar fixed-top navbar-expand-sm navbar-light">
+			<nav class="navbar navbar-expand-sm navbar-light">
 				<a class="navbar-brand" href="index.html"><span class="margin-nav-brand">RE-CYCLE</span></a>
 
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,34 +34,18 @@
 		<main>
 			<div class="container">
 				<h1 class="text-center">Contact us</h1>
-				<form class="contact" action="#">
+				<form class="contact" action="#" onsubmit="return checkForm();">
 					<div class="form-group">
-				    	<label for="lname">Firstname</label>
-				    	<input type="text" class="form-control" id="fname" name="fName" placeholder="Enter Firstname">
+				    	<label for="name">Name</label>
+				    	<input type="text" class="form-control" id="name" name="name" placeholder="Enter Firstname">
+						<span id="nameError" style="display: none;">Please fill out this field</span>
 				  	</div><!--form-group-->
 
 				  	<div class="form-group">
-				    	<label for="lname">Lastname</label>
-				    	<input type="text" class="form-control" id="lname" name="lName" placeholder="Enter lastname">
-				  	</div><!--form-group-->
-
-				  	<div class=" form-group">
 				    	<label for="email">E-mail address</label>
 				    	<input type="email" class="form-control" id="email" name="email" placeholder="Enter e-mail">
+						<span id="emailError" style="display: none;">Please enter a valid e-mail adress</span>
 				 	</div><!--form-group-->
-
-				 	<div class=" form-group">
-				    	<label for="phone">Phone number</label>
-				    	<input type="tel" class="form-control" id="phone" name="email" placeholder="Enter phone number">
-				 	</div><!--form-group-->
-
-				  	<div class="form-group">
-				    	<label for="contact">How would you like to be contacted?</label>
-					    <select class="form-control" id="contact" name="contact">
-					    	<option>E-mail</option>
-					    	<option>Phone</option>
-					    </select>
-				  	</div><!--form-group-->
 
 				  	<div class="form-group">
 				    	<label for="trip">Subject</label>
@@ -76,17 +60,19 @@
 
 				  	<div class="form-group">
 				    	<label for="textArea">What can we help you with?</label>
-				    	<textarea class="form-control" id="textArea" rows="5" placeholder="Write what we can help you with" name="customize"></textarea>
+				    	<textarea class="form-control" id="textArea" rows="5" placeholder="What we can help you with" name="customize"></textarea>
+						<span id="textAreaError" style="display: none;">Please fill out this field</span>
 				  	</div><!--form-group-->
-				  	<button type="submit" class="btn btn-primary">Submit</button>
+				  	<button type="submit" id="inquiry" class="btn btn-primary">Submit</button>
 				</form>
 			</div><!--container-->
 		</main>
 
-		<footer class="footer-copyright"><p class="vertical-center">Copyright 2017 RE-CYCLE &copy;</p></footer>
+		<footer class="footer-copyright"><p class="text-center">Copyright 2017 RE-CYCLE &copy;</p></footer>
 
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		<script src="../js/script.js"></script>
 	</body>
 </html>
