@@ -134,6 +134,17 @@ nav.navbar{
   color: rgb(222,212,192);
 }
 
+.no-link, .no-link:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.no-link:hover .bg-columns{
+	background-color: rgb(114,200,118);
+	transition-duration: 0.2s;
+	
+}
+
 
 
 
