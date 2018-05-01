@@ -48,6 +48,11 @@ img{
 .row h1{
   font-size: 1.5em;
 }
+
+.bg-columns{
+	background-color: rgb(88,174,92);
+	padding: 1em;
+}
 /*---------------------*/
 
 
@@ -69,7 +74,7 @@ section.bottom{
 }
 footer {
   	padding: 1em 0 0 0; /*2em footer padding*/
-	background-color: #fff; /*red background color*/
+	background-color: rgb(88,174,92); /*red background color*/
 }
 /*---------------------*/
 
