@@ -152,6 +152,10 @@ nav.navbar{
 	margin: auto;
 }
 
+.navbar-toggler{
+	border: none;
+}
+
 @media (max-width: 1500px) {
 	.container-small{
 		width: 40%;
