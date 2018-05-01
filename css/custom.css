@@ -9,6 +9,10 @@ body{
   background-attachment: fixed;
   background-position: center;*/
 	background-color: rgba(222,212,192,0.8);
+font-family: 'Rubik', sans-serif;
+
+
+
 }
 
 img{
@@ -154,6 +158,18 @@ nav.navbar{
 
 .navbar-toggler{
 	border: none;
+}
+
+.size-3vw{
+	font-size: 3vw !important;
+}
+
+.size-1-5vw{
+	font-size: 1.5vw !important;
+}
+
+.size-1vw{
+	font-size: 1vw !important;
 }
 
 @media (max-width: 1500px) {
