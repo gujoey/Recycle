@@ -2,21 +2,16 @@
 
 
 body{
-  /*background-image: url("https://static.pexels.com/photos/163491/bike-mountain-mountain-biking-trail-163491.jpeg");*/
-  /*background-image: url("https://static.pexels.com/photos/533730/pexels-photo-533730.jpeg");*/
-  /*background-image: url("../images/photos/body.jpeg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;*/
 	background-color: rgba(222,212,192,0.8);
-font-family: 'Rubik', sans-serif;
-
-
-
+	font-family: 'Rubik', sans-serif;
 }
 
 img{
    width:100% !important; 
+}
+
+p{
+	margin-bottom: 0;
 }
 
 .container{
@@ -75,7 +70,7 @@ section.bottom{
 	padding-bottom: 1em; /*1em bottompadding on bottom section*/
 }
 footer {
-  	padding: 1em 0 0 0; /*2em footer padding*/
+  	padding: 1em 0 0.8em 0; /*2em footer padding*/
 	background-color: rgb(88,174,92); /*red background color*/
 }
 /*---------------------*/
@@ -146,7 +141,7 @@ nav.navbar{
 }
 
 .no-link:hover .bg-columns{
-	background-color: rgb(114,200,118);
+	background-color: rgb(140, 226, 144);
 	transition-duration: 0.2s;
 	
 }
@@ -163,6 +158,7 @@ nav.navbar{
 
 .size-3vw{
 	font-size: 3vw !important;
+	margin-bottom: 0;
 }
 
 .size-1-5vw{
