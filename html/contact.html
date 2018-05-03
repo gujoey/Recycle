@@ -38,19 +38,19 @@
 				<form class="contact" action="inquiry-sent.html" onsubmit="return checkForm();">
 					<div class="form-group">
 				    	<label for="name">Name</label>
-				    	<input type="text" class="form-control" id="name" name="name" placeholder="Enter name">
+				    	<input type="text" class="form-control form-control-lg" id="name" name="name" placeholder="Enter name">
 						<span id="nameError" style="display: none;">Please fill out this field</span>
 				  	</div><!--form-group-->
 
 				  	<div class="form-group">
 				    	<label for="email">E-mail address</label>
-				    	<input type="email" class="form-control" id="email" name="email" placeholder="Enter e-mail">
+				    	<input type="email" class="form-control form-control-lg" id="email" name="email" placeholder="Enter e-mail">
 						<span id="emailError" style="display: none;">Please enter a valid e-mail adress</span>
 				 	</div><!--form-group-->
 
 				  	<div class="form-group">
 				    	<label for="trip">Subject</label>
-					    <select class="form-control" id="trip" name="trip">
+					    <select class="form-control form-control-lg" id="trip" name="trip">
 					    	<option>City cycling tour</option>
 					    	<option>Road cycling tour</option>
 					    	<option>Mountain cycling tour</option>
@@ -61,10 +61,10 @@
 
 				  	<div class="form-group">
 				    	<label for="textArea">What can we help you with?</label>
-				    	<textarea class="form-control" id="textArea" rows="5" placeholder="What we can help you with" name="customize"></textarea>
+				    	<textarea class="form-control form-control-lg" id="textArea" rows="5" placeholder="What we can help you with" name="customize"></textarea>
 						<span id="textAreaError" style="display: none;">Please fill out this field</span>
 				  	</div><!--form-group-->
-				  	<button type="submit" id="inquiry" class="btn btn-primary">Submit</button>
+				  	<button type="submit" id="inquiry" class="btn btn-primary btn-lg">Submit</button>
 				</form>
 			</div><!--container-->
 		</main>
@@ -73,6 +73,7 @@
 
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<script src="../js/script.js"></script>
 	</body>
 </html>
